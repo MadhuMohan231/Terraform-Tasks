@@ -58,8 +58,8 @@ resource "aws_route_table" "pri-rt" {
 #   route_table_id = aws_route_table.pub-rt.id
 # }
 
-resource "aws_route_table_association" "prisub-association" {
-  subnet_id = aws_subnet.pri-subnet-tf.id
-  route_table_id = aws_route_table.pri-rt.id
-}
+# resource "aws_route_table_association" "prisub-association" {
+#   subnet_id = aws_subnet.pri-subnet-tf.id
+#   route_table_id = aws_route_table.pri-rt.id
+# }
 
