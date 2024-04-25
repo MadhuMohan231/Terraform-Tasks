@@ -7,7 +7,7 @@ resource "aws_vpc" "vpc_tf" {
 
 resource "aws_subnet" "pub_subnet_tf" {
   vpc_id = aws_vpc.vpc_tf.id
-  cidr_block = var.pri_sub_cidr
+  cidr_block = var.pub_sub_cidr
   tags = {
     Name = "my_pubsub"
   }

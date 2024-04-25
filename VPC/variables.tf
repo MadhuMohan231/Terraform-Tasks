@@ -1,7 +1,6 @@
 variable "vpc_cidr" {
     type = string
     description = "VPC CIDR value"
-    default = ""
 }
 
 variable "pub_sub_cidr" {
